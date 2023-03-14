@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import ContactBox from './components/ContactBox'
 
 export default function OurTeam(){
     return(
