@@ -22,7 +22,7 @@ export default function RootLayout({
       <body>
         <CacheProvider>
           <ChakraProvider>
-            <Navbar />
+            <Navbar />            
             {children}
             <Footer />
           </ChakraProvider>

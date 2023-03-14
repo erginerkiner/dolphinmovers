@@ -16,7 +16,7 @@ export default function Home() {
       <h1 className='text-2xl font-bold text-[#01096E] text-center p-2'>HOW DOLPHIN MARITIME FREIGHT WORKS?</h1>
       <Image className='md:flex md:mx-auto md:w-3/4 p-10' src={"/home/workflow.png"} alt={''} width={'1440'}height={'734'} />
      </div>
-     <div className='bg-gradient-to-r from-[#01096E] to-[#000000] rounded-xl p-10'>
+     <div className='bg-gradient-to-r from-[#01096E] to-[#000000] rounded-xl p-10 mb-8'>
       <p className='text-white text-center font-normal'>We’re proud to be experts in quick, cost-effective deliveries to Europe and across the globe.
       Our team are determined to provide a professional and reliable service every time. We offer comprehensive range of services that include domestic and inteernationl removals, vehicle shipping, corporate moves, freight forwarding, 
         storage, including self  storage and fine art shipping.<br/><br/>

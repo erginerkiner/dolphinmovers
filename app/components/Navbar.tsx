@@ -31,7 +31,7 @@ import {
     return (
       <Box className='md:w-full md:flex md:justify-around z-auto '>
         <Flex 
-          bg={useColorModeValue('transparent', 'transparent')}
+          bg={useColorModeValue('transparent', 'gray.900')}
           color={useColorModeValue('white', 'transparent')}
           minH={'60px'}
           py={{ base: 2 }}
@@ -47,7 +47,7 @@ import {
             <IconButton
               onClick={onToggle}
               icon={
-                isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
+                isOpen ? <CloseIcon color={'#01096E'} w={3} h={3} /> : <HamburgerIcon color={'#01096E'} w={5} h={5} />
               }
               variant={'ghost'}
               aria-label={'Toggle Navigation'}
@@ -57,7 +57,7 @@ import {
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
+              color={useColorModeValue('gray.800', 'black')}>
               <Link href='/'>
               <Image className='md:w-3/4 md:h-auto' src={"/home/sitelogo.svg"} alt="" width={64} height={64} />
               </Link>
@@ -190,7 +190,7 @@ import {
   const MobileNav = () => {
     return (
       <Stack
-        bg={useColorModeValue('white', 'gray.800')}
+        bg={useColorModeValue('gray.50', 'gray.800')}
         p={4}
         display={{ md: 'none' }}>
         {NAV_ITEMS.map((navItem) => (

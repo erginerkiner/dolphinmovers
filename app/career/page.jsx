@@ -26,7 +26,10 @@ export default function CareerPage(){
                     <input className="rounded-md p-2" type={'text'} placeholder={'Full Name'} required></input>
                     <input className="rounded-md p-2" type={'tel'} placeholder={'Phone Number'} required></input>
                     <FormLabel className="text-gray-500 bg-white p-2 rounded-md w-full">Choose file to upload<br/><input type={'file'} placeholder={'Choose file to upload'}></input></FormLabel>
-                    <input className="rounded-md p-2 h-auto" type={'text'} placeholder={'Message'}></input>
+                    <textarea 
+                    id="message" 
+                    rows="4" 
+                    className="block p-2 w-full  text-gray-900 bg-white rounded-md"  placeholder="Message" />
                     <Button type="submit" className="bg-[#FA4040] w-fit m-auto flex justify-center">Submit</Button>
                 </form>
             </div>

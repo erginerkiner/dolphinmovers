@@ -12,7 +12,7 @@ export default function ServicesPage(){
                     <p className="py-2 font-light text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/wwff'}>Read More</Link>
+                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/worldwide-ff'}>Read More</Link>
                 </div>
             </div>
             <div className="md:w-3/4 md:m-auto mt-4 md:mt-8 flex flex-col items-center bg-gradient-to-r from-[#01096E] to-black  rounded-lg shadow md:flex-row md:max-w-screen">
