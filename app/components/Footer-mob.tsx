@@ -98,7 +98,7 @@ import {
 
             <Stack spacing={4}>
               <Box>
-                <Image src={'/home/sitelogo.svg'} alt={''} height={80} width={80} />                
+                <Image src={'/moverslogo.svg'} alt={''} height={80} width={80} />                
               </Box>
               <Stack direction={'row'}>
                 <ListHeader>Follow Us</ListHeader>

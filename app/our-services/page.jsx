@@ -22,7 +22,7 @@ export default function ServicesPage(){
                     <p className="py-2 font-light text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/warehousing'}>Read More</Link>
+                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/'}>Read More</Link>
                 </div>
                 <Image className="object-cover w-full rounded-t-lg h-auto md:h-96 md:w-2/4 md:rounded-none md:rounded-l-lg" src="/servicepics/service2.png" alt="" width={320} height={160} />
             </div>
@@ -33,7 +33,7 @@ export default function ServicesPage(){
                     <p className="py-2 font-light text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/relocation'}>Read More</Link>
+                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/'}>Read More</Link>
                 </div>
             </div>
             
@@ -44,7 +44,7 @@ export default function ServicesPage(){
                     <p className="py-2 font-light text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/warehousing'}>Read More</Link>
+                    <Link className="mb-2 flex justify-center m-auto md:mx-0 md:inline-flex w-fit rounded-md text-white font-semibold bg-[#FA4040] py-2 px-4" href={'/'}>Read More</Link>
                 </div>
                 <Image className="object-cover w-full rounded-t-lg h-auto md:h-96 md:w-2/4 md:rounded-none md:rounded-l-lg" src="/servicepics/service2.png" alt="" width={320} height={160} />
             </div>
