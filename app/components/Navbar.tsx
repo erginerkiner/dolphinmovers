@@ -265,24 +265,25 @@ import {
         {
           label: 'Our Company',
           /* subLabel: 'Trending Design to inspire you', */
-          href: '/company',
+          href: '/#',
         },
         {
           label: 'Our Mission',          
-          href: '/mission',
+          href: '/#',
         },
         {
             label: 'Our Team',            
-            href: '/team',
+            href: '/#',
           },
       ],
     },
     {
       label: 'Services',
+      href:'/services',
       children: [
         {
           label: 'Worldwide Freight Forwarding',          
-          href: '#',
+          href: '/worldwide-ff',
         },
         {
           label: 'Worldwide Relocations',          
