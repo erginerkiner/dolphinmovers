@@ -11,14 +11,14 @@ export default function AboutPage(){
             </div>
             <div className="md:flex md:w-3/4 h-auto m-auto justify-between md:justify-center md:px-32 gap-4 md:gap-2">
                 <div className="mb-4 md:w-1/2 md:justify-center md:mx-auto  text-center py-16 px-8 rounded-lg bg-gradient-to-r from-[#01096E] to-[#000000] text-white text-xl">
-                    <h2 className="text-[#FA4040] font-semibold mb-4">Pallet Distributing & Warehousing</h2>
-                    <p className="text-white font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h2 className="text-[#FA4040] font-semibold mb-4">Pallet Distribution & Warehousing</h2>
+                    <p className="text-white font-light">Dolphin Movers operates substantial and high-quality state-of-the-art warehousing and distribution 
+                    facilities strategically situated in key transportation regions to meet both customer and operational needs.</p>
                 </div>
                 <div className="mb-4 md:w-1/2 md:justify-center text-center py-16 px-8 rounded-lg bg-gradient-to-r from-[#01096E] to-[#000000] text-white text-xl">
-                    <h2 className="text-[#FA4040] font-semibold mb-4">Container Storage</h2>
-                    <p className="text-white font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                    <h2 className="text-[#FA4040] font-semibold mb-4">Shipping Container Storage</h2>
+                    <p className="text-white font-light">We utilize many different types of containers for storage, and we guarantee that they are watertight, 
+                    structurally sound, and appropriate for use as safe storage containers.</p>    
                 </div>
             </div>
             <div className="py-4 px-2 flex m-auto md:justify-center">

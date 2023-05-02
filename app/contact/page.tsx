@@ -7,7 +7,7 @@ import { Button } from "@chakra-ui/react"
 export default function ContactPage(){
     return(
         <main className="p-4 mx-2 md:mx-32 md:p-10 text-center text-lg font-normal">
-            <h1 className="text-[#01096E] text-center text-xl font-bold py-6">OUR MANAGEMENT TEAM</h1> 
+           {/*  <h1 className="text-[#01096E] text-center text-xl font-bold py-6">OUR MANAGEMENT TEAM</h1> 
             <div className="flex flex-col md:flex-row min-w-screen h-auto justify-between gap-4 md:gap-2">        
                     <div className="mb-2 md:w-full">
                     <Image className="m-auto" src={'/team/team1.png'} alt={''} width={'272'} height={'224'} />
@@ -39,7 +39,7 @@ export default function ContactPage(){
                     <h3>Call Direct : <Link className="hover:text-[#01096E]" href={'tel://+44 7810 432373'}>+44 7810 432373</Link></h3>
                     <h3>Email : <Link className="hover:text-[#01096E]" href={'mailto:lr@dolphingroup.info'}>lr@dolphingroup.info</Link></h3>
                     </div>
-            </div>
+            </div> */}
 
             <div>
                 <h1 className="text-[#01096E] text-center text-xl font-bold py-6">CONTACT US</h1>
