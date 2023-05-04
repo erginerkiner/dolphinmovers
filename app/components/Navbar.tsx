@@ -59,7 +59,7 @@ import {
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'black')}>
               <Link href='/'>
-              <Image className='md:w-3/4 md:h-auto' src={"/home/sitelogo.svg"} alt="" width={64} height={64} />
+              <Image className=' md:h-auto' src={"/home/sitelogo.svg"} alt="" width={64} height={64} />
               </Link>
             </Text>
   
@@ -273,7 +273,7 @@ import {
         },
         {
             label: 'Our Team',            
-            href: '/#',
+            href: '/team',
           },
       ],
     },

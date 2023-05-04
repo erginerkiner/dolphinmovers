@@ -98,7 +98,7 @@ export default function Footer() {
             <ListHeader><Link href='/about'>About Us</Link></ListHeader>
             <Link href={'#'}>Our Company</Link>
             <Link href={'#'}>Our Mission</Link>
-            <Link href={'#'}>Our Team</Link>
+            <Link href={'/team'}>Our Team</Link>
 
           </Stack>
           <Stack align={'flex-start'}>
@@ -108,10 +108,10 @@ export default function Footer() {
             <ListHeader><Link href={'/career'}>Career</Link></ListHeader>        
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader><Link href={'#'}>Gallery</Link></ListHeader>        
+            <ListHeader><Link href={'/gallery'}>Gallery</Link></ListHeader>        
           </Stack>
           <Stack align={'flex-start'}>
-            <ListHeader><Link href={'#'}>Contact Us</Link></ListHeader>        
+            <ListHeader><Link href={'/contact'}>Contact Us</Link></ListHeader>        
           </Stack>
 
 

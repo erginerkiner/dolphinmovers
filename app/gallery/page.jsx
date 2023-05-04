@@ -1,10 +1,11 @@
 "use client"
 import { BiHome } from "react-icons/bi"
 import { ArrowForwardIcon } from "@chakra-ui/icons"
+import Image from "next/image"
 
 export default function GalleryPage(){
     return(
-        <main className="min-h-screen">
+        <main className="p-4 mx-2 md:mx-32 md:p-10 text-center text-lg font-normal">
             <nav className="flex" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3 mx-auto">
                 <li className="inline-flex items-center">
@@ -24,28 +25,29 @@ export default function GalleryPage(){
             </nav>
             <h1 className="text-[#01096E] text-center text-xl font-bold py-6">GALLERY</h1>
 
-                <div class="grid gap-4">
-                    <div>
-                        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg" alt="" />
-                    </div>
-                    <div class="grid grid-cols-5 gap-4">
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
-                        </div>
-                        <div>
-                            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
-                        </div>
-                    </div>
-                </div>
+
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div>
+        <Image width={'400'} height={'400'} class="h-auto max-w-full rounded-lg" src={'/gallery/g1.jpg'} alt={''} />
+    </div>
+    <div>
+        <Image width={'400'} height={'200'} class="h-auto max-w-full rounded-lg" src={'/gallery/g2.jpg'} alt={''} />
+    </div>
+    <div>
+        <Image width={'400'} height={'400'} class="h-auto max-w-full rounded-lg" src={'/gallery/g3.jpg'} alt={''} />
+    </div>
+    <div>
+        <Image width={'400'} height={'400'} class="h-auto max-w-full rounded-lg" src={'/gallery/g4.jpg'} alt={''} />
+    </div>
+    <div>
+        <Image width={'400'} height={'400'} class="h-auto max-w-full rounded-lg" src={'/gallery/g5.jpg'} alt={''} />
+    </div>
+    <div>
+        <Image width={'400'} height={'400'} class="h-auto max-w-full rounded-lg" src={'/gallery/g6.jpg'} alt={''} />
+    </div>
+</div>
+
 
         </main>
     )
